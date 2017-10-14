@@ -1,0 +1,26 @@
+{
+  "name": "crayon",
+  "version": "1.0.0",
+  "description": "A simple CSS framework",
+  "scripts": {
+    "test": "echo lol"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caronyan/crayon.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "framework",
+    "responsive",
+    "flexbox",
+    "simple"
+  ],
+  "author": "caronyan<caronyan.1986@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caronyan/crayon/issues"
+  },
+  "homepage": "https://github.com/caronyan/crayon#readme"
+}
