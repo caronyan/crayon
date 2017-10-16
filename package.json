@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple CSS framework",
   "scripts": {
-    "test": "echo lol"
+    "test": "sass src/crayon.scss test/output/crayon.css"
   },
   "repository": {
     "type": "git",
