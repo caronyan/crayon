@@ -1,0 +1,48 @@
+// Colors
+
+// Main theme color
+$primary:           #E77200 !default;
+$primary-dark:        darken($primary, 25%) !default; 
+$primary-darker:      darken($primary, 45%) !default; 
+$primary-light:       lighten($primary, 25%) !default; 
+$primary-lighter:     lighten($primary, 45%) !default; 
+// Accent color
+$secondary:         #5FA777 !default;
+$secondary-dark:      darken($primary, 25%) !default; 
+$secondary-darker:    darken($primary, 45%) !default; 
+$secondary-light:     lighten($primary, 25%) !default; 
+$secondary-lighter:   lighten($primary, 45%) !default; 
+// Link
+
+// Shades
+
+
+// Typography
+
+$family-sans-serif: BlinkMacSystemFont, -apple-system, 
+                    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
+                    "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", 
+                    "Arial", sans-serif !default;
+$family-monospace: monospace !default;
+$render-mode: optimizeLegibility !default;
+
+// Responsiveness
+// Breakpoints from bulma
+
+// The container horizontal gap, which acts as the offset for breakpoints
+$gap: 32px !default;
+// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+$tablet: 769px !default;
+// 960px container + 3rem
+$desktop: 960px + (2 * $gap) !default;
+// 1152px container + 3rem
+$widescreen: 1152px + (2 * $gap)  !default;
+// 1344px container + 3rem
+$fullhd: 1344px + (2 * $gap)  !default;
+
+// Miscellaneous
+$radius-small: 2px !default;
+$radius: 3px !default;
+$radius-large: 5px !default;
+
+
